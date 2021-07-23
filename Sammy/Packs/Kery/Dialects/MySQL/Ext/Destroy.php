@@ -63,7 +63,7 @@ namespace Sammy\Packs\Kery\Dialects\MySQL\Ext {
      */
     public static function Destroy ($tableName, $datas = null) {
       if (!(is_array($datas) && $datas)) {
-        return;
+        return null;
       }
 
       $datas = self::readQuery ($datas);
