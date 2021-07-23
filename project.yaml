@@ -1,0 +1,4 @@
+# KERY
+
+include-all:
+  core: *
