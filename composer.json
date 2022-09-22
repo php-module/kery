@@ -13,9 +13,6 @@
 		"psr-0": {
       "Sammy\\": "Sammy/"
     },
-		"classmap": [
-      "Sammy/"
-		],
 		"files": [
 			"autoload.php"
 		]
